@@ -1,0 +1,39 @@
+SayCheese Kullanımı
+
+SayCheese uygulaması sayesinde karşı tarafa bir link yollayacağız ve o kişi bu linke tıkladıktan sonra kamera iznine evet derse size anlık olarak resimler gelecektir. Fakat o sekmeyi ya da tarayıcıyı karşı taraf kapatırsa işlem patlar bilginiz olsun.
+
+Öncelikle vereceğim linkten dosyamızı
+ indiriyoruz 
+
+git clone https://github.com/thelinuxchoice/saycheese
+
+Termux üzerinden kuranlar mobil veri ile kursun ve mobil erişim noktasını açsın aksi taktirde link vermeyecektir
+
+bash saycheese.sh 
+
+Yazıp tool çalıştıralım
+
+
+Bizlere 2 seçenek sunacaktır
+
+(1) serveo.net
+(2)ngrok
+
+Burdan ngrok yani 2 yazıp çalıştırıyoruz
+
+Seçtikten sonra 10-15 saniye bir yükleme yapıyor burada bekleyelim ve bizlere bir link verdi 
+
+
+Bu link kullanıcıya özeldir bilginiz olsun tekrar kullanım sunmamaktadır.
+ 
+
+Ve hedef kişiye attığınız zaman kamera erişimine izin ver kısmına tıklarsa size anlık olarak resimleri düşecektir ;) 
+
+Resimleri termux üzerinden sdcard aktarmak için 
+
+mv   uzantı    /sdard
+
+
+Bir sonraki dersimizde görüşmek üzere
+
+HALİL :)
